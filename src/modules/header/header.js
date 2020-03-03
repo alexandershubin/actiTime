@@ -8,7 +8,7 @@ export default class Menu {
       menuCrossButton: document.querySelector('.menu-burger'),
       subMenu: document.querySelector('.sub-menu'),
       arrowButton: document.querySelector('.arrow'),
-      mainNav: document.querySelector('.main-nav')
+      mainNav: document.querySelector('.main-nav'),
     };
 
     this._addListeners();
@@ -37,5 +37,6 @@ export default class Menu {
   toggleSubmenu() {
     this._els.menuCrossButton.classList.toggle('active');
     this._els.mainNav.classList.toggle('active');
+    document.body.classList.toggle('overlay');
   }
 }
