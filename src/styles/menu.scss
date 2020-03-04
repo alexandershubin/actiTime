@@ -111,6 +111,8 @@
   width: 27.58px;
   height: 27.58px;
   background: url("../assets/img/menu-cross.svg") no-repeat;
+  position: relative;
+  z-index: 100;
 }
 
 .menu-burger {
@@ -118,7 +120,6 @@
   height: 24px;
   background: url("../assets/img/menu-burger.svg") no-repeat;
   cursor: pointer;
-  transition: .3s ease-in-out;
 }
 
 .menu-burger:hover {
@@ -127,7 +128,6 @@
 
 .menu-burger:active {
   color: #9C69E2;
-  transition: .3s ease-in-out;
 }
 
 .main-menu__item--arrow {

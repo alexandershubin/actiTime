@@ -10,7 +10,7 @@ import './styles/style.scss';
 import './assets/img/logo.svg'
 import './modules/slider/slider'
 
-const menu = new Menu();
+new Menu();
 
 
 
