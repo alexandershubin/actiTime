@@ -13,5 +13,4 @@ build/
 node_modules/
 npm-debug.*
 Thumbs.db
-somth/*
-!somth/logo.png
+!/for_ignor/logo.png
