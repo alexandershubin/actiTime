@@ -35,6 +35,12 @@
   flex: 0 0 50px;
   position: relative;
   z-index: 3;
+  display: block;
+  text-decoration: none;
+  border: none;
+  background: url("../img/logo.svg") no-repeat;
+  width: 49px;
+  height: 35px;
 }
 
 .header__menu {
@@ -85,14 +91,6 @@
   background: #B17FF4;
 }
 
-.logo {
-  display: block;
-  text-decoration: none;
-  border: none;
-  background: url("../img/logo.svg") no-repeat;
-  width: 49px;
-  height: 35px;
-}
 
 .logo-white {
   display: block;

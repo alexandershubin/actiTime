@@ -51,6 +51,7 @@
   padding: 53px 16px 40px 30px;
   margin: 10px auto;
   box-sizing: border-box;
+  min-height: 358px;
 }
 
 .slider__item--new {
@@ -119,6 +120,7 @@
     max-width: 390px;
     padding: 53px 55px 41px 117px;
     box-sizing: border-box;
+
 
 
     &:after {
