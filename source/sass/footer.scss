@@ -1,5 +1,6 @@
 .page-footer {
   background: #9C69E2;
+  margin-top: -50px;
 }
 
 .page-footer__wrapper {
@@ -63,6 +64,10 @@
 }
 
 @media (min-width: 768px) {
+  .page-footer {
+    margin-top: -20px;
+  }
+
   .page-footer__link {
     max-width: 220px;
     width: 100%;
@@ -90,8 +95,18 @@
     margin: 0;
   }
 }
+@media (min-width: 992px) {
+  .page-footer {
+    margin-top: -110px;
 
+  }
+}
 @media (min-width: 1200px) {
+  .page-footer {
+    margin-top: -40px;
+    padding: 20px 0;
+  }
+
   .page-footer__link {
     max-width: 460px;
   }

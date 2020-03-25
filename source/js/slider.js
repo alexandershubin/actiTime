@@ -12,7 +12,7 @@ $('.owl-carousel').owlCarousel({
       items:1,
       slideBy:1
     },
-    993:{
+    1200:{
       items:2,
       slideBy:2
     }
